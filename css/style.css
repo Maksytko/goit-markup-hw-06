@@ -615,7 +615,7 @@ footer a {
 .footer-form {
   display: flex;
   flex-direction: column;
-  margin-left: 95px;
+  margin-left: auto;
   padding-top: 12px;
 }
 
@@ -829,6 +829,7 @@ footer a {
 }
 
 .modal-close-button {
+  display: flex;
   position: absolute;
   top: 8px;
   right: 8px;
@@ -836,6 +837,7 @@ footer a {
   background: #ffffff;
   border: 1px solid rgba(0, 0, 0, 0.1);
   cursor: pointer;
+  padding: 9px;
 }
 
 .modal-close-svg {
